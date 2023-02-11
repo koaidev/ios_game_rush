@@ -27,7 +27,7 @@ struct SettingsGlobal {
     
     /** AdMob settings.*/
     struct Ad {
-        static let on = true
+        static let on = false
         
         static let idInterstitial = "ca-app-pub-3940256099942544/4411468910"
         static let idBanner = "ca-app-pub-3940256099942544/2934735716"
@@ -42,7 +42,7 @@ struct SettingsGlobal {
         struct Showing {
             struct Interstitial {
                 static let game = false
-                static let end = true
+                static let end = false
                 static let menu = false
                 static let settings = false
                 static let store = false
@@ -53,7 +53,7 @@ struct SettingsGlobal {
                 static let game = false
                 static let end = false
                 static let menu = false
-                static let settings = true
+                static let settings = false
                 static let store = false
                 static let tutorial = false
             }
@@ -62,14 +62,14 @@ struct SettingsGlobal {
     
     /** In-Apps function for removing ad's from game.*/
     struct InApp {
-        static let on = true
+        static let on = false
         static let removingAds = "removeAdsIDs"
     }
     
     /** Rate us function for reachings rationg in AppStore*/
     struct RateUs {
         struct AfterGame {
-            static let on = true
+            static let on = false
         }
         
         struct Manual {
@@ -89,7 +89,7 @@ struct SettingsGlobal {
     
     /** GameCenter settings. Write here you leaderboard id's and other.*/
     struct GameCenter {
-        static let testMode = true //Turn off test mode when you upload game to AppStore
+        static let testMode = false //Turn off test mode when you upload game to AppStore
         static let leaderboard = "Leaderboard"
     }
     

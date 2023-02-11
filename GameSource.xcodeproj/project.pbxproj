@@ -19,6 +19,8 @@
 		009572C9283FBF47000EA10B /* BlockNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009572C8283FBF47000EA10B /* BlockNode.swift */; };
 		009572CC2840ECE0000EA10B /* backgroundMenu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 009572CA2840ECE0000EA10B /* backgroundMenu.mp3 */; };
 		009572CD2840ECE0000EA10B /* backgroundGame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 009572CB2840ECE0000EA10B /* backgroundGame.mp3 */; };
+		34AFB875299674F200101BF7 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AFB874299674F200101BF7 /* LandingViewController.swift */; };
+		34AFB876299682C100101BF7 /* LandingScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AFB878299682C100101BF7 /* LandingScreen.storyboard */; };
 		64130F482602586D006C67EF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64130F4A2602586D006C67EF /* Localizable.strings */; };
 		64130F4E26026241006C67EF /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64130F4D26026241006C67EF /* TextField.swift */; };
 		6416A92423BDE12700F1A6E7 /* InterfaceExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416A92323BDE12700F1A6E7 /* InterfaceExtention.swift */; };
@@ -108,15 +110,11 @@
 		009572C8283FBF47000EA10B /* BlockNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockNode.swift; sourceTree = "<group>"; };
 		009572CA2840ECE0000EA10B /* backgroundMenu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMenu.mp3; sourceTree = "<group>"; };
 		009572CB2840ECE0000EA10B /* backgroundGame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundGame.mp3; sourceTree = "<group>"; };
+		34AFB874299674F200101BF7 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		34AFB877299682C100101BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LandingScreen.storyboard; sourceTree = "<group>"; };
 		64130F492602586D006C67EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		64130F4D26026241006C67EF /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		6416A92323BDE12700F1A6E7 /* InterfaceExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceExtention.swift; sourceTree = "<group>"; };
-		64394C322602774100E42F04 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
-		64394C332602774100E42F04 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		64394C342602774100E42F04 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6446EDE326026FCC00E923BE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6446EDE426026FCC00E923BE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
-		6446EDE526026FCC00E923BE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		64508794260272C900FABD98 /* LogoSmallNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoSmallNode.swift; sourceTree = "<group>"; };
 		645087982602730C00FABD98 /* LogoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoProtocol.swift; sourceTree = "<group>"; };
 		645E59432548F3DD0049EC51 /* SettingsPhysicsBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPhysicsBody.swift; sourceTree = "<group>"; };
@@ -446,6 +444,7 @@
 		D54E971C1F641E5400966018 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				34AFB874299674F200101BF7 /* LandingViewController.swift */,
 				D54E968E1F6418AC00966018 /* GameViewController.swift */,
 				D54E96AD1F641B5700966018 /* GVC_Ads.swift */,
 				D54E96AE1F641B5700966018 /* GVC_GameCenter.swift */,
@@ -517,6 +516,7 @@
 			children = (
 				D54E96901F6418AC00966018 /* Main.storyboard */,
 				D54E96951F6418AC00966018 /* LaunchScreen.storyboard */,
+				34AFB878299682C100101BF7 /* LandingScreen.storyboard */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -537,6 +537,8 @@
 			dependencies = (
 			);
 			name = GameSource;
+			packageProductDependencies = (
+			);
 			productName = GameSource;
 			productReference = D54E96831F6418AC00966018 /* GameSource.app */;
 			productType = "com.apple.product-type.application";
@@ -580,6 +582,9 @@
 				uk,
 			);
 			mainGroup = D54E967A1F6418AC00966018;
+			packageReferences = (
+				34AFB8792996D46B00101BF7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = D54E96841F6418AC00966018 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -596,6 +601,7 @@
 			files = (
 				64130F482602586D006C67EF /* Localizable.strings in Resources */,
 				D54E96C41F641B5700966018 /* getPoint.mp3 in Resources */,
+				34AFB876299682C100101BF7 /* LandingScreen.storyboard in Resources */,
 				D54E96921F6418AC00966018 /* Main.storyboard in Resources */,
 				D54E96C31F641B5700966018 /* getCoin.mp3 in Resources */,
 				009572CD2840ECE0000EA10B /* backgroundGame.mp3 in Resources */,
@@ -619,6 +625,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D54E96CB1F641B5700966018 /* GVC_Social.swift in Sources */,
+				34AFB875299674F200101BF7 /* LandingViewController.swift in Sources */,
 				D50E2C72210F6EAF00471D2C /* TransparentSprite.swift in Sources */,
 				6416A92423BDE12700F1A6E7 /* InterfaceExtention.swift in Sources */,
 				D54E96C21F641B5700966018 /* GS_Values.swift in Sources */,
@@ -676,12 +683,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		34AFB878299682C100101BF7 /* LandingScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34AFB877299682C100101BF7 /* Base */,
+			);
+			name = LandingScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		64130F4A2602586D006C67EF /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				64130F492602586D006C67EF /* en */,
-				6446EDE326026FCC00E923BE /* ru */,
-				64394C342602774100E42F04 /* uk */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -690,8 +703,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				D54E96911F6418AC00966018 /* Base */,
-				6446EDE426026FCC00E923BE /* ru */,
-				64394C322602774100E42F04 /* uk */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -700,8 +711,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				D54E96961F6418AC00966018 /* Base */,
-				6446EDE526026FCC00E923BE /* ru */,
-				64394C332602774100E42F04 /* uk */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -828,7 +837,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GameSource/GameSource.entitlements;
-				DEVELOPMENT_TEAM = DQ9Y59MK79;
+				DEVELOPMENT_TEAM = YXVSVFGK2C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GameSource",
@@ -854,7 +863,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GameSource/GameSource.entitlements;
-				DEVELOPMENT_TEAM = DQ9Y59MK79;
+				DEVELOPMENT_TEAM = YXVSVFGK2C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GameSource",
@@ -897,6 +906,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		34AFB8792996D46B00101BF7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = D54E967B1F6418AC00966018 /* Project object */;
 }

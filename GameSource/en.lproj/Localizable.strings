@@ -19,53 +19,53 @@
 */
  
 //Scenes
-"menuScene_PlayerBestScore" = "Your Best Score: ";
-"menuScene_WorldBestScoreValue" = "World Best Score: ";
-"menuScene_WorldBestScoreName" = "From Player: ";
+"menuScene_PlayerBestScore" = "Điểm người chơi cao nhất: ";
+"menuScene_WorldBestScoreValue" = "Điểm cao nhất thế giới: ";
+"menuScene_WorldBestScoreName" = "Người chơi: ";
 
-"gameScene_PauseTitle" = "PAUSE";
+"gameScene_PauseTitle" = "Tạm dừng";
 
-"settingsScene_Title" = "SETTINGS";
-"settingsScene_settingPlaySounds" = "Play sounds";
-"settingsScene_settingPlayMenuNusic" = "Play menu music";
-"settingsScene_settingPlayGameMusic" = "Play game music";
-"settingsScene_settingNotification" = "Notifications";
+"settingsScene_Title" = "Cài đặt";
+"settingsScene_settingPlaySounds" = "Chơi nhạc";
+"settingsScene_settingPlayMenuNusic" = "Nhạc màn hình chờ";
+"settingsScene_settingPlayGameMusic" = "Nhạc trò chơi";
+"settingsScene_settingNotification" = "Thông báo";
 
-"endScene_CurrentScore" = "Current Score: ";
-"endScene_BestScore" = "Best Score: ";
+"endScene_CurrentScore" = "Điểm hiện tại: ";
+"endScene_BestScore" = "Điểm cao nhất: ";
 
-"storeScene_Title" = "STORE";
-"storeScene_PurchasePanelClose" = "Close";
-"storeScene_PurchaseCompletitionSuccessfully" = "You have new skin!";
-"storeScene_PurchaseCompletitionFailed" = "You need more coins!";
-"storeScene_InAppRestore" = "Restore purchases";
-"storeScene_InAppRemoveAds" = "Remove ads: 0.99$";
-"storeScene_SkinSelectorBuyFist" = "Buy ";
-"storeScene_SkinSelectorBuyLast" = " coins";
-"storeScene_SkinSelectorSelect" = "Select";
-"storeScene_SkinSelectorCurrent" = "Current";
+"storeScene_Title" = "Cửa hàng";
+"storeScene_PurchasePanelClose" = "Đóng";
+"storeScene_PurchaseCompletitionSuccessfully" = "Bạn có trang phục mới!";
+"storeScene_PurchaseCompletitionFailed" = "Bạn cần thêm điểm!";
+"storeScene_InAppRestore" = "Khôi phục ";
+"storeScene_InAppRemoveAds" = "Xoá quảng cáo: 0.99$";
+"storeScene_SkinSelectorBuyFist" = "Mua ";
+"storeScene_SkinSelectorBuyLast" = " Điểm";
+"storeScene_SkinSelectorSelect" = "Chọn";
+"storeScene_SkinSelectorCurrent" = "Hiện tại";
 
-"tutorialScene_CloseMessage" = "TAP TO CLOSE TUTORIAL";
-"tutorialScene_Content1" = "Tap and move";
-"tutorialScene_Content2" = "Collect coins";
-"tutorialScene_Content3" = "Avoid dark rocks";
+"tutorialScene_CloseMessage" = "Chạm để đóng";
+"tutorialScene_Content1" = "Chạm và xoá";
+"tutorialScene_Content2" = "Thu thập điểm";
+"tutorialScene_Content3" = "Tránh những hòn đá đen";
 
 //Notifications
-"notification_2hours_Type1" = "Play now!";
-"notification_2hours_Type2" = "Beat your record!";
-"notification_2hours_Type3" = "Increase your results!";
-"notification_2hours_Type4" = "Thanks for playing!";
+"notification_2hours_Type1" = "Chơi ngay!";
+"notification_2hours_Type2" = "Đánh bại kỷ lục của bạn!";
+"notification_2hours_Type3" = "Tăng kết quả của bạn!";
+"notification_2hours_Type4" = "Cảm ơn bạn đã chơi!";
 
-"notification_6hours_Type1" = "Play now!";
-"notification_6hours_Type2" = "You can better!";
-"notification_6hours_Type3" = "Play again!";
-"notification_6hours_Type4" = "Hi!";
+"notification_6hours_Type1" = "Chơi ngay!";
+"notification_6hours_Type2" = "Bạn có thể chơi tốt hơn đó!";
+"notification_6hours_Type3" = "Chơi lại!";
+"notification_6hours_Type4" = "Xin chào!";
 
-"notification_22hours_Type1" = "Play one more time!";
-"notification_22hours_Type2" = "Hello!";
-"notification_22hours_Type3" = "Play again!";
+"notification_22hours_Type1" = "Chơi thêm lần nữa nhá!";
+"notification_22hours_Type2" = "Xin chào!";
+"notification_22hours_Type3" = "Chơi lại!";
 
-"notification_1week" = "It's wonderful day for playing!";
+"notification_1week" = "Đó là ngày tuyệt vời để chơi!";
 
 //Sharing
-"share_Text" = "Try to beat my score!";
+"share_Text" = "Cố gắng đánh bại điểm số của tôi!";
