@@ -849,7 +849,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = AliceVinnik.GameSource;
+				PRODUCT_BUNDLE_IDENTIFIER = MaiDuy.Kbeztminer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = GameSource/Bridging.h;
@@ -875,7 +875,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = AliceVinnik.GameSource;
+				PRODUCT_BUNDLE_IDENTIFIER = MaiDuy.Kbeztminer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = GameSource/Bridging.h;

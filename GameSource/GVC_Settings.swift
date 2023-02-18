@@ -36,12 +36,12 @@ extension GameViewController {
             
             //Set stats
             ///Music
-            UserDefaults.standard.set(true, forKey: "PlaySounds")
-            UserDefaults.standard.set(true, forKey: "PlayMusicMenu")
-            UserDefaults.standard.set(true, forKey: "PlayMusicGame")
+            UserDefaults.standard.set(false, forKey: "PlaySounds")
+            UserDefaults.standard.set(false, forKey: "PlayMusicMenu")
+            UserDefaults.standard.set(false, forKey: "PlayMusicGame")
             
             ///Notifications
-            UserDefaults.standard.set(true, forKey: "NotificationOn")
+            UserDefaults.standard.set(false, forKey: "NotificationOn")
             UserDefaults.standard.set(false, forKey: "neverRateAfterGame")
             
             ///Skins
