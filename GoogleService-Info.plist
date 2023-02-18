@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>119689267341-42pdna4o7kmfot9hbc91c6s279daabmu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.119689267341-42pdna4o7kmfot9hbc91c6s279daabmu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAfyEwrn7ECe0a58FGwz1TaZGjLRCIIncw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>119689267341</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>MaiDuy.Kbeztminer</string>
+	<key>PROJECT_ID</key>
+	<string>teeflash-36601</string>
+	<key>STORAGE_BUCKET</key>
+	<string>teeflash-36601.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:119689267341:ios:9d8b508c5ea96c439dfac4</string>
+</dict>
+</plist>
